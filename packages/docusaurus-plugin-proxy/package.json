@@ -1,5 +1,5 @@
 {
-  "name": "docusaurus-plugin-proxy",
+  "name": "@signalwire-community/docusaurus-plugin-proxy",
   "description": "A dev server proxy for Docusaurus.",
   "version": "0.6.0",
   "license": "MIT",

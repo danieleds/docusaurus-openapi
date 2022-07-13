@@ -1,5 +1,5 @@
 {
-  "name": "docusaurus-plugin-openapi",
+  "name": "@signalwire-community/docusaurus-plugin-openapi",
   "description": "OpenAPI plugin for Docusaurus.",
   "version": "0.6.0",
   "license": "MIT",
