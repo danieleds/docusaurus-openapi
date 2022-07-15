@@ -5,6 +5,6 @@
  * LICENSE file in the root directory of this source tree.
  * ========================================================================== */
 
-declare module "docusaurus-plugin-proxy" {
+declare module "@signalwire-community/docusaurus-plugin-proxy" {
   export type Options = Partial<import("./types").PluginOptions>;
 }

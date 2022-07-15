@@ -21,7 +21,7 @@ import Layout from "@theme/Layout";
 import MDXComponents from "@theme/MDXComponents";
 import NotFound from "@theme/NotFound";
 import clsx from "clsx";
-import { PropApiMetadata } from "docusaurus-plugin-openapi";
+import { PropApiMetadata } from "@signalwire-community/docusaurus-plugin-openapi";
 
 import styles from "./styles.module.css";
 

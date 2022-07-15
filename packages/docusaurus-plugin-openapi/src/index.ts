@@ -47,7 +47,7 @@ export default function pluginOpenAPI(
 
   const pluginDataDirRoot = path.join(
     generatedFilesDir,
-    "docusaurus-plugin-openapi"
+    "@signalwire-community/docusaurus-plugin-openapi"
   );
 
   const dataDir = path.join(pluginDataDirRoot, pluginId);
@@ -60,7 +60,7 @@ export default function pluginOpenAPI(
     : path.resolve(context.siteDir, options.path);
 
   return {
-    name: "docusaurus-plugin-openapi",
+    name: "@signalwire-community/docusaurus-plugin-openapi",
 
     getPathsToWatch() {
       if (isURL(contentPath)) return [];

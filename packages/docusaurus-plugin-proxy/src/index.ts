@@ -14,7 +14,7 @@ export default function pluginOpenAPI(
   options: PluginOptions
 ): Plugin {
   return {
-    name: "docusaurus-plugin-proxy",
+    name: "@signalwire-community/docusaurus-plugin-proxy",
 
     // docusaurus type is outdated
     configureWebpack(): any {

@@ -7,7 +7,7 @@
 
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 // TODO: we might want to export this
-import { ServerObject } from "docusaurus-plugin-openapi/src/openapi/types";
+import { ServerObject } from "@signalwire-community/docusaurus-plugin-openapi/src/openapi/types";
 
 export interface State {
   value?: ServerObject;
