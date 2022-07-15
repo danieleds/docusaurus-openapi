@@ -1,7 +1,7 @@
 {
   "name": "@signalwire-community/docusaurus-preset-openapi",
   "description": "OpenAPI preset for Docusaurus.",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "license": "MIT",
   "keywords": [
     "openapi",
