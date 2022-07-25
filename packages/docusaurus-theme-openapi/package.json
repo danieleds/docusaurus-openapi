@@ -1,7 +1,7 @@
 {
   "name": "@signalwire-community/docusaurus-theme-openapi",
   "description": "OpenAPI theme for Docusaurus.",
-  "version": "0.6.6",
+  "version": "0.6.7",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -48,7 +48,7 @@
     "buffer": "^6.0.3",
     "clsx": "^1.1.1",
     "crypto-js": "^4.1.1",
-    "@signalwire-community/docusaurus-plugin-openapi": "^0.6.6",
+    "@signalwire-community/docusaurus-plugin-openapi": "^0.6.7",
     "immer": "^9.0.7",
     "lodash": "^4.17.20",
     "monaco-editor": "^0.31.1",
