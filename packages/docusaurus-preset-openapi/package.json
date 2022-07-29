@@ -1,7 +1,7 @@
 {
   "name": "@signalwire-community/docusaurus-preset-openapi",
   "description": "OpenAPI preset for Docusaurus.",
-  "version": "0.6.7",
+  "version": "0.6.8",
   "license": "MIT",
   "keywords": [
     "openapi",
@@ -32,9 +32,9 @@
   },
   "dependencies": {
     "@docusaurus/preset-classic": "^2.0.0-beta.21",
-    "@signalwire-community/docusaurus-plugin-openapi": "^0.6.7",
-    "@signalwire-community/docusaurus-plugin-proxy": "^0.6.7",
-    "@signalwire-community/docusaurus-theme-openapi": "^0.6.7"
+    "@signalwire-community/docusaurus-plugin-openapi": "^0.6.8",
+    "@signalwire-community/docusaurus-plugin-proxy": "^0.6.8",
+    "@signalwire-community/docusaurus-theme-openapi": "^0.6.8"
   },
   "peerDependencies": {
     "react": "^16.8.4 || ^17.0.0",
