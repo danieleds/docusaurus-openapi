@@ -1,6 +1,6 @@
 {
   "name": "@signalwire-community/create-docusaurus-openapi",
-  "version": "0.6.9",
+  "version": "0.6.10",
   "description": "Create Docusaurus apps easily.",
   "repository": {
     "type": "git",
