@@ -7,7 +7,7 @@
 
 import React from "react";
 
-import { RequestBodyObject } from "docusaurus-plugin-openapi/src/openapi/types";
+import { RequestBodyObject } from "@signalwire-community/docusaurus-plugin-openapi/src/openapi/types";
 
 import ContentType from "../ContentType";
 import FormMultiSelect from "../FormMultiSelect";

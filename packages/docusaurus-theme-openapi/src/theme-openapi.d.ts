@@ -5,8 +5,8 @@
  * LICENSE file in the root directory of this source tree.
  * ========================================================================== */
 
-/// <reference types="docusaurus-plugin-openapi" />
+/// <reference types="@signalwire-community/docusaurus-plugin-openapi" />
 
-declare module "docusaurus-theme-openapi" {
+declare module "@signalwire-community/docusaurus-theme-openapi" {
   export type ThemeConfig = Partial<import("./types").ThemeConfig>;
 }

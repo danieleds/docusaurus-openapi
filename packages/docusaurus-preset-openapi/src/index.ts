@@ -7,7 +7,7 @@
 
 import presetClassic from "@docusaurus/preset-classic";
 import type { Preset, LoadContext, PluginOptions } from "@docusaurus/types";
-import type { Options } from "docusaurus-preset-openapi";
+import type { Options } from "@signalwire-community/docusaurus-preset-openapi";
 
 function makePluginConfig(
   source: string,
@@ -27,14 +27,20 @@ export default function preset(
 
   const { themes = [], plugins = [] } = presetClassic(context, rest);
 
-  themes.push(makePluginConfig("docusaurus-theme-openapi"));
+  themes.push(
+    makePluginConfig("@signalwire-community/docusaurus-theme-openapi")
+  );
 
   if (api !== false) {
-    plugins.push(makePluginConfig("docusaurus-plugin-openapi", api));
+    plugins.push(
+      makePluginConfig("@signalwire-community/docusaurus-plugin-openapi", api)
+    );
   }
 
   if (proxy !== false) {
-    plugins.push(makePluginConfig("docusaurus-plugin-proxy", proxy));
+    plugins.push(
+      makePluginConfig("@signalwire-community/docusaurus-plugin-proxy", proxy)
+    );
   }
 
   return { themes, plugins };

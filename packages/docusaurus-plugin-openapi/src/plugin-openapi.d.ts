@@ -43,7 +43,7 @@ declare module "@docusaurus/plugin-content-docs-types" {
   };
 }
 
-declare module "docusaurus-plugin-openapi" {
+declare module "@signalwire-community/docusaurus-plugin-openapi" {
   import type { PropSidebars } from "@docusaurus/plugin-content-docs-types";
 
   export type Options = Partial<import("./types").PluginOptions>;
@@ -63,7 +63,7 @@ declare module "docusaurus-plugin-openapi" {
 
 declare module "@theme/ApiPage" {
   import type { ApiRoute } from "@theme/ApiItem";
-  import type { PropApiMetadata } from "docusaurus-plugin-openapi";
+  import type { PropApiMetadata } from "@signalwire-community/docusaurus-plugin-openapi";
 
   export interface Props {
     readonly location: { readonly pathname: string };

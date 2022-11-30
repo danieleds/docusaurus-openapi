@@ -10,7 +10,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import {
   ServerObject,
   ServerVariable,
-} from "docusaurus-plugin-openapi/src/openapi/types";
+} from "@signalwire-community/docusaurus-plugin-openapi/src/openapi/types";
 
 import { ThemeConfig } from "../../../types";
 import { createStorage } from "../storage-utils";

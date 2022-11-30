@@ -11,8 +11,12 @@ import type {
 } from "@docusaurus/preset-classic";
 
 export type Options = {
-  api?: false | import("docusaurus-plugin-openapi").Options;
-  proxy?: false | import("docusaurus-plugin-proxy").Options;
+  api?:
+    | false
+    | import("@signalwire-community/docusaurus-plugin-openapi").Options;
+  proxy?:
+    | false
+    | import("@signalwire-community/docusaurus-plugin-proxy").Options;
 } & ClassicOptions;
 
 export type ThemeConfig = import("docusaurus-theme-openapi").ThemeConfig &

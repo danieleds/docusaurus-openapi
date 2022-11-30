@@ -9,7 +9,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import {
   SecurityRequirementObject,
   SecuritySchemeObject,
-} from "docusaurus-plugin-openapi/src/openapi/types";
+} from "@signalwire-community/docusaurus-plugin-openapi/src/openapi/types";
 
 import { ThemeConfig } from "../../../types";
 import { createStorage, hashArray } from "../storage-utils";
